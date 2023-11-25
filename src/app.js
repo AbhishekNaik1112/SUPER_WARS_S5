@@ -151,8 +151,10 @@ class Superwar {
 
   // Announce the winner
   announceWinner = (score) => {
-    if (score.hero === score.villain) alert("It's a draw!");
-    else if (score.hero > score.villain) alert("Heroes Win!");
+    if (score.hero === score.villain) 
+    alert("It's a draw!");
+    else if (score.hero > score.villain) 
+    alert("Heroes Win!");
     else alert("Villains Win!");
     location.reload();
   };
